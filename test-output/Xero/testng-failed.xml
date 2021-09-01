@@ -3,15 +3,15 @@
 <suite name="Failed suite [Xero]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Xero Login(failed)">
     <classes>
-      <class name="com.xeroFrameworkNikhat.testcases.LogintoXeroValidAccount">
+      <class name="com.xeroFrameworkNikhat.testcases.HomePageXero">
         <methods>
           <include name="startApp"/>
+          <include name="logIn"/>
           <include name="setUp"/>
-          <include name="loginToAccount"/>
-          <include name="QuitAppMethod"/>
           <include name="QuitApp"/>
+          <include name="QuitAppMethod"/>
         </methods>
-      </class> <!-- com.xeroFrameworkNikhat.testcases.LogintoXeroValidAccount -->
+      </class> <!-- com.xeroFrameworkNikhat.testcases.HomePageXero -->
     </classes>
   </test> <!-- Xero Login(failed) -->
 </suite> <!-- Failed suite [Xero] -->

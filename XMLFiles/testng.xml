@@ -2,11 +2,11 @@
 
 <suite name="Xero">
 
-<test name="Xero Login">
+	<test name="Xero Login">
 		<classes>
-		
-			<class name="com.xeroFrameworkNikhat.testcases.LogintoXeroValidAccount"></class>
 
+			<class name="com.xeroFrameworkNikhat.testcases.LogintoXeroValidAccount"></class>
+			
 		</classes>
 	</test>
 </suite>
