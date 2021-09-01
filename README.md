@@ -8,5 +8,5 @@ Report is generated in: Reports folder
 All the supporting Classes,are created Using Page Object Model.
 They are in package: com.xeroFrameworkNikhat.pages
 
-All the Supporting Utilitiesy Classes are in,
+All the Supporting Utilities Classes are in,
 Package: com.xeroFrameworkNikhat.Utilities
