@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-01T18:16:29 NZST" name="Default suite" finished-at="2021-09-01T18:16:47 NZST" duration-ms="17198">
+    <groups>
+    </groups>
+    <test started-at="2021-09-01T18:16:29 NZST" name="Default test" finished-at="2021-09-01T18:16:47 NZST" duration-ms="17198">
+      <class name="com.xeroFrameworkNikhat.testcases.LogintoXeroValidAccount">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xeroFrameworkNikhat.testcases.LogintoXeroValidAccount@47d90b9e]" started-at="2021-09-01T18:16:29 NZST" name="setUp" finished-at="2021-09-01T18:16:29 NZST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startApp()[pri:0, instance:com.xeroFrameworkNikhat.testcases.LogintoXeroValidAccount@47d90b9e]" started-at="2021-09-01T18:16:29 NZST" name="startApp" finished-at="2021-09-01T18:16:32 NZST" duration-ms="2874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method signature="loginToAccount()[pri:0, instance:com.xeroFrameworkNikhat.testcases.LogintoXeroValidAccount@47d90b9e]" started-at="2021-09-01T18:16:32 NZST" name="loginToAccount" finished-at="2021-09-01T18:16:46 NZST" duration-ms="13317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToAccount -->
+        <test-method is-config="true" signature="QuitAppMethod(org.testng.ITestResult)[pri:0, instance:com.xeroFrameworkNikhat.testcases.LogintoXeroValidAccount@47d90b9e]" started-at="2021-09-01T18:16:46 NZST" name="QuitAppMethod" finished-at="2021-09-01T18:16:46 NZST" duration-ms="264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToAccount status=SUCCESS method=LogintoXeroValidAccount.loginToAccount()[pri:0, instance:com.xeroFrameworkNikhat.testcases.LogintoXeroValidAccount@47d90b9e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitAppMethod -->
+        <test-method is-config="true" signature="QuitApp()[pri:0, instance:com.xeroFrameworkNikhat.testcases.LogintoXeroValidAccount@47d90b9e]" started-at="2021-09-01T18:16:46 NZST" name="QuitApp" finished-at="2021-09-01T18:16:47 NZST" duration-ms="715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitApp -->
+      </class> <!-- com.xeroFrameworkNikhat.testcases.LogintoXeroValidAccount -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
